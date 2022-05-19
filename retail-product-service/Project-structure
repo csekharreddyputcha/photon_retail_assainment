@@ -1,0 +1,29 @@
+
+As per the requirement, Restcontroller (ProductServiceController) component is created 
+which will interact with service layer(productService) 
+
+this service class will use repository classes to communicate with mysql db.
+
+spring data jpa is used for implementing dao layer.
+
+also written unit test cases as mentioned in assignment doc.
+
+
+List of classes created as part of the assignment
+
+	ProductServiceController.java
+	ProductService.java
+	ProductDaoRepository.java
+	ProductPriceRepository.java
+	Product.java
+	productDTO.java
+	productPrice.java
+	ExceptionMessage.java
+	ProductNotFoundException.java
+	CustomizedResponseEntityExceptonHandler.java
+	
+	
+	ProductDAORepositoryTest - to verify read and write operations to database tables
+	ProductServiceTest - written unit test cases for service methods.
+	
+	
